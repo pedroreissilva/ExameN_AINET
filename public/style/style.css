@@ -1,0 +1,52 @@
+body{
+    background-color: lavender;
+    border: 0px;
+    margin: 0px;
+}
+
+#header{
+  position: relative;
+  float: left;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-height: 200px;
+  height: auto;
+  width: 100%;
+  background-color: dimgrey ;
+}
+
+
+#main{
+    margin: auto;
+    width: 1280px;
+    height: auto;
+}
+
+#main_content{
+    position: relative;
+    float: left;
+    min-height: 500px;
+    height: auto;
+    width: 100%;
+    background-color: white;
+}
+
+
+footer{
+    width: auto;
+}
+
+
+#main footer #rodape{
+    float: left;
+    position: relative;
+    border: 0px;
+    margin: 0px;
+    height: 200px;
+    width: 1280px;
+    margin-bottom: 10px;
+    background-color: dimgrey;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

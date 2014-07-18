@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc262df-489a-44e6-bcd8-dd8c234ca6fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/public_home.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/controllerHome.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/view_footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/view_header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/view_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/public_home.php" afterPath="$PROJECT_DIR$/public/public_home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style/style.css" afterPath="$PROJECT_DIR$/public/style/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AINET_Exame_2120680.iws" />
@@ -26,10 +32,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="public_home.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="public_home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/public_home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+            <state line="5" column="29" selection-start="134" selection-end="134" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="controllerHome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/controllerHome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="40" selection-start="261" selection-end="261" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/view_header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="4" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/view_footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/style/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="23" selection-start="689" selection-end="689" vertical-scroll-proportion="0.90384614" vertical-offset="0" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/view_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="23" selection-start="12" selection-end="24" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -51,19 +102,23 @@
         <option value="$PROJECT_DIR$/public/public_logout.php" />
         <option value="$PROJECT_DIR$/controller/controllerIndex.php" />
         <option value="$PROJECT_DIR$/public/public_index.php" />
-        <option value="$PROJECT_DIR$/view/view_footer.php" />
-        <option value="$PROJECT_DIR$/view/view_header.php" />
         <option value="$PROJECT_DIR$/view/view_index.php" />
-        <option value="$PROJECT_DIR$/public/style/style.css" />
         <option value="$PROJECT_DIR$/view/view_header_login.php" />
         <option value="$PROJECT_DIR$/public/public_login.php" />
+        <option value="$PROJECT_DIR$/controller/controllerHome2.php" />
+        <option value="$PROJECT_DIR$/public/public_home.php" />
+        <option value="$PROJECT_DIR$/controller/controllerHome.php" />
+        <option value="$PROJECT_DIR$/view/view_footer.php" />
+        <option value="$PROJECT_DIR$/view/view_header.php" />
+        <option value="$PROJECT_DIR$/view/view_home.php" />
+        <option value="$PROJECT_DIR$/public/style/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-1928" />
-    <option name="y" value="-468" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -127,6 +182,10 @@
               <option name="myItemId" value="AINET_Exame_2120680" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -139,6 +198,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AINET_Exame_2120680" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AINET_Exame_2120680" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="style" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,6 +316,11 @@
       <created>1404942362714</created>
       <updated>1404942362714</updated>
     </task>
+    <task id="LOCAL-00001" summary="Pedro Silva - Alterações realizadas na pasta PUBLIC, foi acrescentado o ficheiro PUBLIC_HOME">
+      <created>1405642370584</created>
+      <updated>1405642370584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -262,9 +344,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-468" width="1936" height="1066" extended-state="6" />
+    <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -297,21 +380,51 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Pedro Silva - Alterações realizadas na pasta PUBLIC, foi acrescentado o ficheiro PUBLIC_HOME" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pedro Silva - Alterações realizadas na pasta PUBLIC, foi acrescentado o ficheiro PUBLIC_HOME" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/style/style.css">
+    <entry file="file://$PROJECT_DIR$/controller/controllerHome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
+        <state line="12" column="40" selection-start="261" selection-end="261" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/public_home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+        <state line="5" column="29" selection-start="134" selection-end="134" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="84" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="221" selection-end="221" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view_home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="23" selection-start="12" selection-end="24" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="23" selection-start="689" selection-end="689" vertical-scroll-proportion="0.90384614" vertical-offset="0" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
