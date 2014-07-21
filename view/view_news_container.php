@@ -3,7 +3,13 @@
 -->
 <div id = "news_container">
     <div id = "news_categories">
-
+        <ul>
+            <?php
+                foreach($topMenu as $id=>$value){
+                    echo '<li id = "'.$id.'">'.$value.'</li>';
+                }
+            ?>
+        </ul>
     </div>
 
     <div class = "individual_news_container">
