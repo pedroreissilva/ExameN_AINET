@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc262df-489a-44e6-bcd8-dd8c234ca6fd" name="Default" comment="Pedro Silva - Remoção do conteudo do CSS para seguir exame">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/view_left_menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/view_news_container.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/style/style.css" afterPath="$PROJECT_DIR$/public/style/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/view_footer.php" afterPath="$PROJECT_DIR$/view/view_footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/view_header.php" afterPath="$PROJECT_DIR$/view/view_header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/view_home.php" afterPath="$PROJECT_DIR$/view/view_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7fc262df-489a-44e6-bcd8-dd8c234ca6fd" name="Default" comment="" />
     <ignored path="AINET_Exame_2120680.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,10 +43,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="view_header.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="view_header.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/view/view_header.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="2" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38590202" vertical-offset="0" max-vertical-offset="837">
+                <state line="27" column="10" selection-start="810" selection-end="810" vertical-scroll-proportion="0.6201117" vertical-offset="126" max-vertical-offset="663">
                   <folding />
                 </state>
               </provider>
@@ -109,10 +101,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/public/style/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="19" selection-start="25" selection-end="25" vertical-scroll-proportion="0.01923077" vertical-offset="0" max-vertical-offset="2516">
+                <state line="1" column="19" selection-start="25" selection-end="25" vertical-scroll-proportion="0.02910959" vertical-offset="0" max-vertical-offset="2516">
                   <folding />
                 </state>
               </provider>
@@ -146,8 +138,8 @@
         <option value="$PROJECT_DIR$/view/view_news_container.php" />
         <option value="$PROJECT_DIR$/view/view_footer.php" />
         <option value="$PROJECT_DIR$/view/view_home.php" />
-        <option value="$PROJECT_DIR$/view/view_header.php" />
         <option value="$PROJECT_DIR$/public/style/style.css" />
+        <option value="$PROJECT_DIR$/view/view_header.php" />
       </list>
     </option>
   </component>
@@ -368,7 +360,11 @@
       <created>1405958945367</created>
       <updated>1405958945367</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Reset CSS file, and start new CSS, add new files, like view_left_menu and view_news_container">
+      <created>1405966948435</created>
+      <updated>1405966948435</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -393,15 +389,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1544196" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -431,7 +427,8 @@
     <MESSAGE value="Pedro Silva - Alterações realizadas na pasta PUBLIC, foi acrescentado o ficheiro PUBLIC_HOME" />
     <MESSAGE value="Pedro Silva - Implementação da estrutura header and footer, body foi tambem estruturado" />
     <MESSAGE value="Pedro Silva - Remoção do conteudo do CSS para seguir exame" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pedro Silva - Remoção do conteudo do CSS para seguir exame" />
+    <MESSAGE value="Reset CSS file, and start new CSS, add new files, like view_left_menu and view_news_container" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reset CSS file, and start new CSS, add new files, like view_left_menu and view_news_container" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -460,7 +457,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/view/view_news_container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="595">
+        <state line="7" column="0" selection-start="186" selection-end="211" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
@@ -468,13 +465,6 @@
     <entry file="file://$PROJECT_DIR$/public/public_home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/view_header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="545" selection-end="545" vertical-scroll-proportion="0.38590202" vertical-offset="0" max-vertical-offset="837">
           <folding />
         </state>
       </provider>
@@ -488,7 +478,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="25" selection-end="25" vertical-scroll-proportion="0.01923077" vertical-offset="0" max-vertical-offset="2516">
+        <state line="1" column="19" selection-start="25" selection-end="25" vertical-scroll-proportion="0.02910959" vertical-offset="0" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="10" selection-start="810" selection-end="810" vertical-scroll-proportion="0.6201117" vertical-offset="126" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
