@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Pedro Silva
- * Date: 18-07-2014
- * Time: 1:10
- */ 
+    include_once '../config/commons.php';
+
+    $homeController = new controller_controllerHome();
+
+    $homeController->printHomeView();
+
+?>
