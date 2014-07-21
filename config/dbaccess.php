@@ -1,9 +1,9 @@
 <?php
 
 //podia ainda usar o DEFINE
-$user = "exame";
+$user = "ainetexn";
 $host = "localhost";
-$pass = "exame";
-$database = "deimdb_db";
+$pass = "ainetexn";
+$database = "ainet_exnormal_d_db";
 
 ?>
