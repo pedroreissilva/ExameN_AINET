@@ -1,7 +1,7 @@
 
 <footer>
     <div id = "rodape">
-        <p >FOOTER</p>
+        <p>Pedro Silva - AINET Exame&copy;</p>
     </div>
 </footer>
 </div>
