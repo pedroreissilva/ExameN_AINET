@@ -1,0 +1,142 @@
+body{
+    margin-top: 0px;
+    font-family: "Georgia", "Helvetica", "Arial";
+    font-size: 14px;
+    background-color: #efefef;
+}
+
+/*main div, this div will receive the left menu, header, footer, news, etc..*/
+#main{
+    margin: 0px auto;
+    height: auto;
+    width: 960px;
+}
+
+#header{
+    position: relative;
+    float: left;
+    height: 100px; /*added by me*/
+    width: 70%;
+    min-width: 960px;
+    /*ver se é necessário fazer o pading e margin*/
+    background-color: #0083c3;
+    font-family: "Arial";
+}
+
+#header_site_name{
+    float: left;
+    height: inherit;
+}
+
+#header_site_login{
+    width: auto;
+    height: inherit;
+    float: right;
+}
+
+#header_site_name p{
+    text-align: left;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#header #header_site_login a{
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
+
+
+/*left menu(HashTags)*/
+#left_menu{
+    position: relative;
+    float: left;
+    /*vericar se é necessário defenir o margin e o padding*/
+    width: 200px;
+
+}
+
+#left_menu li a{
+    display: block;
+}
+#left_menu li:hover{
+    background-color: #0083c3;
+    color: #fff;
+}
+
+/*right container - this contains the news*/
+#news_container{
+    position: relative;
+    float: left;
+    width: 760px;
+    background-color: #fafafa;
+}
+
+#news_categories{
+    height: 30px;
+    background-color: #e2e3e7;
+    font-family: "Arial";
+}
+
+.individual_news_container{
+    width: 348px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+.individual_news_container_time_hour{
+    color: #aaa;
+    font-size: 10px;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+.individual_news_container_title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.individual_news_container_content img{
+    width: 160px;
+    height: 160px;
+}
+
+.individual_news_container_author p{
+    font-size: 12px;
+    font-style: italic;
+    font-family: "Arial";
+}
+
+#rodape{
+    clear: both;
+    position: relative;
+    float: left;
+    height: 30px;
+    background-color: #000;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+
+/*login popup*/
+#login_menu_main_container{
+    margin-top: 30px;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background-image: url("../images/translucent-black-50percent.png");
+    display: none;
+}
+
