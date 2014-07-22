@@ -76,12 +76,15 @@ body{
     display: block;
 }
 #left_menu li:hover{
+    cursor: pointer;
     background-color: #0083c3;
     color: #fff;
 }
 
 /*right container - this contains the news*/
 #news_container{
+    margin: 0px;
+    padding: 0px;
     position: relative;
     float: left;
     width: 760px;
@@ -108,14 +111,19 @@ body{
 }
 
 .individual_news_container{
-    width: 348px;
+    position: relative;
+    float: left;
+    width: 358px;
     margin: 5px;
     padding: 5px;
     background-color: #fff;
     border: 1px solid #eee;
+
 }
 
 .individual_news_container_time_hour{
+    clear: both;
+    float: left;
     color: #aaa;
     font-size: 10px;
     font-style: italic;
@@ -123,19 +131,56 @@ body{
 }
 
 .individual_news_container_title{
+    float: left;
     font-size: 18px;
     font-weight: bold;
 }
 
+.individual_news_container_title p{
+    margin: 5px;
+}
+
+
+.individual_news_container_content{
+    position: relative;
+    float: left;
+}
+
 .individual_news_container_content img{
+    position: relative;
+    float: left;
     width: 160px;
     height: 160px;
+    vertical-align:text-top;
+    margin-right: 5px;
+}
+
+.individual_news_container_content p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.individual_news_container_author{
+    clear: both;
+    position: relative;
+    text-align: right ;
 }
 
 .individual_news_container_author p{
+    width: 100%;
+    height: 100%;
+    padding-right: 5px;
+    float: left;
     font-size: 12px;
     font-style: italic;
     font-family: "Arial";
+}
+
+#news_container #paginatio_control{
+    clear: both;
+    position: relative;
+    float: right;
+    text-align: right;
 }
 
 #rodape{
@@ -159,7 +204,7 @@ body{
 }
 
 a:hover{
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 /*login popup*/
