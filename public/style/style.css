@@ -208,12 +208,55 @@ a:hover{
 }
 
 /*login popup*/
-#login_menu_main_container{
-    margin-top: 30px;
+#main_login_container{
+    z-index: 1000;
     position: absolute;
-    height: 300px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     background-image: url("../images/translucent-black-50percent.png");
     display: none;
 }
 
+/*Box that contains login form*/
+#main_login_box{
+    border: 1px solid #e2e3e7;
+    margin: 200px auto;
+    vertical-align: middle;
+    height: 200px;
+    width: 400px;
+    background-color: #ffffff;
+}
+
+#login_header_name{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: #0083c3;
+}
+
+#login_header_name p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#login_form_container{
+    padding: 10px;
+    height: 150px;
+    width: 100%;
+    text-align: justify;
+}
+
+#login_form_container a{
+    cursor: pointer;
+}
+
+/*below are the container specs */
+#news_form_main_container{
+
+}

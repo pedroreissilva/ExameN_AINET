@@ -27,30 +27,33 @@
                     //$hashed_password -> pass que está na base de dados
                     //if (crypt($password_introduzida_pelo user, $hashed_password) == $hashed_password) 
 
-                    $hash_password = hash('sha512', $_POST['password']);
+                    $hash_password = "";
+                    //$hash_password = hash('sha512', $_POST['password']);
 
-                    $query = "select username, password, tipo, nome_completo from utilizador where username = ? and password = ?";
+                    $query = "select username, password, perfil, nome from utilizador where username = ?;";  /*and password = ?*/
                     $database = new model_modelDatabase();
 
-                    $tipo = "";
-                    $nome_completo = "";
+                    $perfil = "";
+                    $nome = "";
 
-                    $username = $database->conn->real_escape_string($_POST['username']);
-                    $password = $database->conn->real_escape_string($hash_password);
+                    $user = $database->conn->real_escape_string($_POST['username']);
+                    $pass = $database->conn->real_escape_string($_POST['password']);
 
                     if($database->isConnected()){
                         $resultado = $database->conn->prepare($query);
-                        $resultado->bind_param("ss", $username, $password );
+                        $resultado->bind_param("s", $user);
 
                         if($resultado->execute()){
-
-                            $resultado->bind_result($username, $password, $tipo, $nome_completo);
+                            $resultado->bind_result($username, $password, $perfil, $nome);
                             if($resultado){
                                 while($linha = $resultado->fetch()){
                                     $_SESSION['username'] = $linha;
+                                    $_SESSION['role'] = $perfil;
+                                    $_SESSION['name'] = $nome;
+                                    $hash_password = $password;
+                                }
+                                if(crypt($pass, $hash_password) == $hash_password){
                                     $_SESSION['autenticado'] = true;
-                                    $_SESSION['role'] = $tipo;
-                                    $_SESSION['name'] = $nome_completo;
                                 }
                                 $resultado->free_result();
                             }
